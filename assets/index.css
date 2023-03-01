@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tilt+Neon&family=Yatra+One&family=Yeseva+One&display=swap");
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  font-family: "Tilt Neon", cursive;
+  font-size: 20px;
+  border-bottom: solid 1px #000;
+  background-color: #fff;
+}
+
+body {
+  background-color: rgb(225, 225, 225);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Yeseva One", cursive;
+}
+
+.banner {
+  height: calc(100vh - 63px);
+  background-color: white;
+  max-width: 768px;
+  border: 1px solid;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.banner p {
+  font-family: "Yeseva One", cursive;
+  font-size: 2.5rem;
+  margin: 0 0.5em;
+}
+
+.btn-bw {
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 0;
+}
+
+.btn-bw:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.setup-middle {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.container-carousel {
+  margin: 24px auto 24px auto;
+  max-width: 480px;
+}
+
+.heading-class {
+  margin: 2em 0 2em 0;
+  text-align: center;
+  border-top: 1px solid #a6a6a6;
+  border-bottom: 1px solid #a6a6a6;
+  padding: 1em 0 0.75em 0;
+}
+
+.footer-class {
+  margin: 2em 0 2em 0;
+  text-align: center;
+}
+
+.divider-class {
+  margin: 3em;
+}
+
+.card-text {
+  font-family: "Yatra One", cursive;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.card {
+  border-radius: 0 !important;
+  border: 1px solid #000;
+  box-shadow: 8px 8px;
+}
+
+.card-img-top {
+  border-radius: 0 !important;
+}
+
+.card-hair-artist {
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+.card-hair-artist__info {
+  padding: 2em;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card-hair-artist__pp {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.artist-row {
+  flex-direction: row-reverse !important;
+}
+
+.container-product {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  padding: 20px;
+  height: 100%;
+  scroll-snap-type: x mandatory;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.container-product::-webkit-scrollbar {
+  display: none;
+}
+
+.card-product {
+  min-width: 250px;
+  margin-right: 32px;
+  background-color: #fff;
+  border: 1px solid #000;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 8px 8px;
+  scroll-snap-align: center;
+}
+
+.card-product-body {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-product img {
+  max-height: 250px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-product p {
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 0 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-product button {
+  display: block;
+  padding: 10px 20px;
+  border: none;
+  background-color: #000000;
+  font-size: 18px;
+  cursor: pointer;
+  width: 100%;
+  color: #fff;
+}
+
+.card-product button:hover {
+  background-color: #2b2b2b;
+}
+
+#aboutus {
+  background-color: #2b2b2b;
+}
+
+.about-class {
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+.location-class {
+  color: #fff;
+  padding: 1em 5em;
+}
+
+span a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  scroll-margin-top: 4em;
+}
